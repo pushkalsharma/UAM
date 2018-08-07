@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="User to Access" max_length="40" name="x_14308_uam_user_a_user_to_access" type="collection">
+        <element display="true" label="Access" mandatory="true" max_length="32" name="access" reference="x_14308_uam_user_a_access" type="reference"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Application" mandatory="true" max_length="32" name="application" reference="x_14308_uam_user_a_user_to_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Granted Date" max_length="40" name="granted_date" type="glide_date"/>
+        <element label="Granted RITM" max_length="32" name="granted_ritm" reference="sc_req_item" type="reference"/>
+        <element label="Last Reattestation Date" max_length="40" name="last_reattestation_date" type="glide_date"/>
+        <element label="Next Reattestation Date" max_length="40" name="next_reattestation_date" type="glide_date"/>
+        <element label="Removed Date" max_length="40" name="removed_date" type="glide_date"/>
+        <element label="Removed RITM" max_length="32" name="removed_ritm" reference="sc_req_item" type="reference"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="access"/>
+        </index>
+        <index name="index2">
+            <element name="removed_ritm"/>
+        </index>
+        <index name="index3">
+            <element name="application"/>
+        </index>
+        <index name="index4">
+            <element name="granted_ritm"/>
+        </index>
+        <index name="index5">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

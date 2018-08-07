@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="320b34a3db7213004b8de04a489619a9" sys_domain="global" table="x_14308_uam_user_a_user_to_application" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:35:40</sys_created_on>
+            <sys_id>f95b3ca3db7213004b8de04a48961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:35:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:36:21</sys_created_on>
+            <sys_id>3b7bb8a3db7213004b8de04a4896197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:36:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:36:55</sys_created_on>
+            <sys_id>18ab30e3db7213004b8de04a489619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:36:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>granted_ritm</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:37:33</sys_created_on>
+            <sys_id>55cb38e3db7213004b8de04a48961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:37:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>granted_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:37:54</sys_created_on>
+            <sys_id>9edb34e3db7213004b8de04a489619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>removed_ritm</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:38:35</sys_created_on>
+            <sys_id>a40c78e3db7213004b8de04a489619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:38:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>removed_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:39:06</sys_created_on>
+            <sys_id>842c38e3db7213004b8de04a48961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_reattestation_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:39:30</sys_created_on>
+            <sys_id>023cb4e3db7213004b8de04a489619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:39:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>next_reattestation_date</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:39:49</sys_created_on>
+            <sys_id>ee4c3027db7213004b8de04a489619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_14308_uam_user_a_user_to_application" sys_domain="global" view="Default view">320b34a3db7213004b8de04a489619a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:39:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_14308_uam_user_a_user_to_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-25 16:34:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>320b34a3db7213004b8de04a489619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_14308_uam_user_a_user_to_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="UAM User Access Management" source="x_14308_uam_user_a">5f8028a3db3213004b8de04a48961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UAM User Access Management">5f8028a3db3213004b8de04a48961994</sys_scope>
+            <sys_update_name>sys_ui_section_320b34a3db7213004b8de04a489619a9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-25 16:34:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

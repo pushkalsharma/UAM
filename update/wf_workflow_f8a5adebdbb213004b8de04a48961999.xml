@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["af0be9bfdbb213004b8de04a489619c2"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>230be9bfdbb213004b8de04a489619c6,e30be9bfdbb213004b8de04a489619c5,af0be9bfdbb213004b8de04a489619c3,af0be9bfdbb213004b8de04a489619c2</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>230be9bfdbb213004b8de04a489619c6,e30be9bfdbb213004b8de04a489619c5,af0be9bfdbb213004b8de04a489619c3,af0be9bfdbb213004b8de04a489619c2</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>UAM Add Access</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">230be9bfdbb213004b8de04a489619c6</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>e70b25bfdbb213004b8de04a489619c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:47:02</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="UAM Add Access">f8a5adebdbb213004b8de04a48961999</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>UAM Add Access</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-25 19:40:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8a5adebdbb213004b8de04a48961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UAM Add Access</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UAM User Access Management" source="x_14308_uam_user_a">5f8028a3db3213004b8de04a48961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UAM User Access Management">5f8028a3db3213004b8de04a48961994</sys_scope>
+        <sys_update_name>wf_workflow_f8a5adebdbb213004b8de04a48961999</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-25 19:40:28</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>af0be9bfdbb213004b8de04a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>a30be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>2b0be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>a70be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>230be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>270be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>230be9bfdbb213004b8de04a489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=230be9bfdbb213004b8de04a489619c6"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">230be9bfdbb213004b8de04a489619c6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>2b0be9bfdbb213004b8de04a489619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>af0be9bfdbb213004b8de04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+        <x>777</x>
+        <y>47</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=af0be9bfdbb213004b8de04a489619c2"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>update user to access record if not available</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>af0be9bfdbb213004b8de04a489619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:46:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+        <x>480</x>
+        <y>38</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=af0be9bfdbb213004b8de04a489619c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>af0be9bfdbb213004b8de04a489619c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>a30be9bfdbb213004b8de04a489619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:46:55</sys_updated_on>
+        <value>var appl = workflow.scratchpad.application;&#13;
+var usr = current.variables.requested_for;&#13;
+var list = current.variables.select_access.toString();&#13;
+var flag = false;&#13;
+var access_parent = '';&#13;
+var listArr = list.split(',');&#13;
+gs.addInfoMessage(listArr);&#13;
+for (var key in listArr) {&#13;
+	&#13;
+	var par = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+	par.addQuery('active', 'true');&#13;
+	par.addQuery('user', usr);&#13;
+	par.addQuery('application', appl);&#13;
+	par.query();&#13;
+	&#13;
+	if(par.next())&#13;
+		{&#13;
+		access_parent = par.sys_id;&#13;
+	}&#13;
+	&#13;
+	&#13;
+	// Get the list of Access from the catalog&#13;
+	var access = new GlideRecord('x_14308_uam_user_a_user_to_access');&#13;
+	access.addQuery('user', usr);&#13;
+	access.addQuery('application', access_parent);&#13;
+	access.addQuery('access', listArr[key]);&#13;
+	access.addQuery('active',true);&#13;
+	access.query();&#13;
+	&#13;
+	// Check if an Active access already exist for the user, do nothing&#13;
+	if(access.next())&#13;
+		{&#13;
+			flag = true;&#13;
+	}&#13;
+	&#13;
+	else // if the access does not exist or is inactive, create a new record&#13;
+		{&#13;
+		var gr2 = new GlideRecord('x_14308_uam_user_a_user_to_access');&#13;
+		gr2.initialize();&#13;
+		gr2.access = listArr[key];&#13;
+		gr2.user = usr;&#13;
+		gr2.granted_ritm = current.sys_id;&#13;
+		gr2.active = true;&#13;
+		gr2.granted_date = new GlideDateTime();&#13;
+		gr2.application = access_parent;&#13;
+		gr2.insert();&#13;
+			gs.addInfoMessage('entry to access done');&#13;
+	}&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>af0be9bfdbb213004b8de04a489619c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>a30be9bfdbb213004b8de04a489619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:46:55</sys_updated_on>
+        <value>var appl = workflow.scratchpad.application;&#13;
+var usr = current.variables.requested_for;&#13;
+var list = current.variables.select_access.toString();&#13;
+var flag = false;&#13;
+var access_parent = '';&#13;
+var listArr = list.split(',');&#13;
+gs.addInfoMessage(listArr);&#13;
+for (var key in listArr) {&#13;
+	&#13;
+	var par = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+	par.addQuery('active', 'true');&#13;
+	par.addQuery('user', usr);&#13;
+	par.addQuery('application', appl);&#13;
+	par.query();&#13;
+	&#13;
+	if(par.next())&#13;
+		{&#13;
+		access_parent = par.sys_id;&#13;
+	}&#13;
+	&#13;
+	&#13;
+	// Get the list of Access from the catalog&#13;
+	var access = new GlideRecord('x_14308_uam_user_a_user_to_access');&#13;
+	access.addQuery('user', usr);&#13;
+	access.addQuery('application', access_parent);&#13;
+	access.addQuery('access', listArr[key]);&#13;
+	access.addQuery('active',true);&#13;
+	access.query();&#13;
+	&#13;
+	// Check if an Active access already exist for the user, do nothing&#13;
+	if(access.next())&#13;
+		{&#13;
+			flag = true;&#13;
+	}&#13;
+	&#13;
+	else // if the access does not exist or is inactive, create a new record&#13;
+		{&#13;
+		var gr2 = new GlideRecord('x_14308_uam_user_a_user_to_access');&#13;
+		gr2.initialize();&#13;
+		gr2.access = listArr[key];&#13;
+		gr2.user = usr;&#13;
+		gr2.granted_ritm = current.sys_id;&#13;
+		gr2.active = true;&#13;
+		gr2.granted_date = new GlideDateTime();&#13;
+		gr2.application = access_parent;&#13;
+		gr2.insert();&#13;
+			gs.addInfoMessage('entry to access done');&#13;
+	}&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="update user to access record if not available">af0be9bfdbb213004b8de04a489619c3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>6f0be9bfdbb213004b8de04a489619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update user to application record if not present</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>e30be9bfdbb213004b8de04a489619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:44:45</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+        <x>209</x>
+        <y>38</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e30be9bfdbb213004b8de04a489619c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e30be9bfdbb213004b8de04a489619c5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>670be9bfdbb213004b8de04a489619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:44:45</sys_updated_on>
+        <value>var appl  = workflow.scratchpad.application;&#13;
+//var appl  ='335705ebdb7213004b8de04a489619ac';&#13;
+var usr = current.variables.requested_for;&#13;
+var flag = false;&#13;
+gs.addInfoMessage(app);&#13;
+var app = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+app.addQuery('application', appl);&#13;
+app.addQuery('user', usr);&#13;
+app.addQuery('active',true);&#13;
+app.query();&#13;
+&#13;
+//Check if an Active application already exist in the table do nothing&#13;
+if (app.next())&#13;
+	{&#13;
+		flag = true;&#13;
+	}&#13;
+else// If the application does not exist, create a new record&#13;
+	{&#13;
+	var gr = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+	gr.initialize();&#13;
+	gr.application = appl;&#13;
+	gr.user = current.variables.requested_for;&#13;
+	gr.active = true;&#13;
+	gr.granted_date = new GlideDateTime();&#13;
+	gr.granted_ritm = current.sys_id;&#13;
+	gr.insert();&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e30be9bfdbb213004b8de04a489619c5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>670be9bfdbb213004b8de04a489619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:44:45</sys_updated_on>
+        <value>var appl  = workflow.scratchpad.application;&#13;
+//var appl  ='335705ebdb7213004b8de04a489619ac';&#13;
+var usr = current.variables.requested_for;&#13;
+var flag = false;&#13;
+gs.addInfoMessage(app);&#13;
+var app = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+app.addQuery('application', appl);&#13;
+app.addQuery('user', usr);&#13;
+app.addQuery('active',true);&#13;
+app.query();&#13;
+&#13;
+//Check if an Active application already exist in the table do nothing&#13;
+if (app.next())&#13;
+	{&#13;
+		flag = true;&#13;
+	}&#13;
+else// If the application does not exist, create a new record&#13;
+	{&#13;
+	var gr = new GlideRecord('x_14308_uam_user_a_user_to_application');&#13;
+	gr.initialize();&#13;
+	gr.application = appl;&#13;
+	gr.user = current.variables.requested_for;&#13;
+	gr.active = true;&#13;
+	gr.granted_date = new GlideDateTime();&#13;
+	gr.granted_ritm = current.sys_id;&#13;
+	gr.insert();&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update user to application record if not present">e30be9bfdbb213004b8de04a489619c5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>ab0be9bfdbb213004b8de04a489619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ab0be9bfdbb213004b8de04a489619c5</condition>
+        <from display_value="Update user to application record if not present">e30be9bfdbb213004b8de04a489619c5</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>2b0be9bfdbb213004b8de04a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <to display_value="update user to access record if not available">af0be9bfdbb213004b8de04a489619c3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6f0be9bfdbb213004b8de04a489619c4</condition>
+        <from display_value="update user to access record if not available">af0be9bfdbb213004b8de04a489619c3</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>eb0be9bfdbb213004b8de04a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <to display_value="End">af0be9bfdbb213004b8de04a489619c2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">2b0be9bfdbb213004b8de04a489619c6</condition>
+        <from display_value="Begin">230be9bfdbb213004b8de04a489619c6</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>ef0be9bfdbb213004b8de04a489619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <to display_value="Update user to application record if not present">e30be9bfdbb213004b8de04a489619c5</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-26 14:42:36</sys_created_on>
+        <sys_id>ab0b25bfdbb213004b8de04a489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-26 14:42:36</sys_updated_on>
+        <workflow_version display_value="UAM Add Access">e70b25bfdbb213004b8de04a489619c1</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=f8a5adebdbb213004b8de04a48961999^sys_id!=e70b25bfdbb213004b8de04a489619c1">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

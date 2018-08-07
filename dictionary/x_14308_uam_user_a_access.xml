@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Access" max_length="40" name="x_14308_uam_user_a_access" type="collection">
+        <element label="Access ID" max_length="40" name="access_id" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Application" mandatory="true" max_length="32" name="application" reference="x_14308_uam_user_a_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Companies" max_length="4000" name="companies" reference="core_company" type="glide_list"/>
+        <element label="Conflicting Access" max_length="32" name="conflicting_access" reference="x_14308_uam_user_a_access" type="glide_list"/>
+        <element label="Conflicting Apps" max_length="32" name="conflicting_apps" reference="x_14308_uam_user_a_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Dependencies" max_length="4000" name="dependencies" reference="x_14308_uam_user_a_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Privilleged" max_length="40" name="privilleged" type="boolean"/>
+        <element label="Technical Information" max_length="1000" name="technical_information" type="string"/>
+        <index name="index">
+            <element name="application"/>
+        </index>
+        <index name="index2">
+            <element name="conflicting_access"/>
+        </index>
+        <index name="index3">
+            <element name="conflicting_apps"/>
+        </index>
+    </element>
+</database>

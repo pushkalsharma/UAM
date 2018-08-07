@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Application" max_length="40" name="x_14308_uam_user_a_application" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="App ID" max_length="40" name="app_id" type="string"/>
+        <element label="Business Owner" max_length="32" name="business_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Companies" max_length="4000" name="companies" reference="core_company" type="glide_list"/>
+        <element label="Conflicting Access" max_length="4000" name="conflicting_access" reference="x_14308_uam_user_a_access" type="glide_list"/>
+        <element label="Conflicting Apps" max_length="4000" name="conflicting_apps" reference="x_14308_uam_user_a_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Dependencies" max_length="4000" name="dependencies" reference="x_14308_uam_user_a_application" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Technical Information" max_length="1000" name="technical_information" type="string"/>
+        <element label="Technical Owner" max_length="32" name="technical_owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="technical_owner"/>
+        </index>
+        <index name="index2">
+            <element name="business_owner"/>
+        </index>
+    </element>
+</database>
